@@ -28,6 +28,10 @@ function updateCity(event) {
 
   let cityName = cityTimeZone.replace("_", "").split("/")[1];
 
+  if (cityTimeZone === "current") {
+    cityTimeZone = moment.tz.guess();
+  }
+
   citiesElement.innerHTML = `
     <div class="city">
         <div id="flag">🌎</div>
