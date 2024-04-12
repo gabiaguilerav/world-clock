@@ -20,6 +20,10 @@ h1 {
   margin: 0;
   font-size: 46px;
 }
+h1 a {
+  color: white;
+  text-decoration: none;
+}
 
 #select-city {
   font-size: 19px;
