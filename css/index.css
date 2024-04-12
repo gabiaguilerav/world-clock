@@ -38,7 +38,7 @@ h1 {
 }
 
 .time-zones {
-  max-width: 500px;
+  max-width: 550px;
   justify-content: center;
   margin: 20px auto;
 }
@@ -57,7 +57,7 @@ h2 {
   color: #ea9085;
 }
 #time {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 footer {
